@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bitmap">
+      <UniqueIdentifier>{1ff2d930-ec4d-41ea-bfcc-4e991d7f558e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlCenter">
+      <UniqueIdentifier>{f6254df6-7f38-446a-b12d-e5330146bef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlCenter\Control">
+      <UniqueIdentifier>{8ea7113a-03c4-4363-82ad-4994280b30cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlCenter\Control\Button">
+      <UniqueIdentifier>{6cd46aef-97b3-47e9-82a1-daabf7bf82c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlCenter\Control\Static">
+      <UniqueIdentifier>{9de96f17-955f-4d20-847c-0a71a30ce98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlCenter\Control\Edit">
+      <UniqueIdentifier>{7e6ddfa8-2dc6-48fc-af79-69e7a0c36f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlCenter\Control\List">
+      <UniqueIdentifier>{db8ae2f9-4b24-4f85-9631-4ffc8dc5425d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ControlCenter\Control\Dialog">
+      <UniqueIdentifier>{65faedb1-4381-425f-89c7-a415d6b8ac9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{eabe9d00-41c7-46ce-9c36-760110b8abb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\Object">
+      <UniqueIdentifier>{022950c1-fa58-4f83-9bd4-4963b7da4f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainFrame">
+      <UniqueIdentifier>{bbde486b-bb40-4c0d-bb2c-3a9615c5abb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite\Animation">
+      <UniqueIdentifier>{fe47596d-b8f8-4b5e-b987-741cfdd2b68f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{aba7e112-0668-4fa3-a0a2-c248dbd80ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{366c5b48-0402-48c1-bbfe-5479507af69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Center">
+      <UniqueIdentifier>{f2656643-180a-4176-a455-7ee292998608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Player">
+      <UniqueIdentifier>{1f7571d5-2e65-437a-994e-b3fa7f971b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{ea028754-acf2-4861-aa20-de5b1db8d2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Monsters">
+      <UniqueIdentifier>{1ad7137d-b8fa-4d2d-80c8-e9890dc47d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\walker">
+      <UniqueIdentifier>{fd7ede73-6a1e-4d6e-b6e4-eddd9de74bbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\StageOne">
+      <UniqueIdentifier>{8337d354-45f9-48db-9664-c453f9b691ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\stage_two">
+      <UniqueIdentifier>{39066b0b-c842-47b1-aa47-34d6a463a55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Ground">
+      <UniqueIdentifier>{28bda0c1-1762-4c3b-ba3c-b75632602db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\questionbox">
+      <UniqueIdentifier>{dd7cc399-574a-49b8-80da-0ae602a67884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScrollCenter">
+      <UniqueIdentifier>{de187adb-2279-4b12-9b00-c1639c94cf88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\flags">
+      <UniqueIdentifier>{873a0283-9c1d-4be5-95c0-668dcd3a7719}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window Project First.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="헤더.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBitimage.h">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageEx.h">
+      <Filter>Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlCenter.h">
+      <Filter>ControlCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>ControlCenter\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="EditControl.h">
+      <Filter>ControlCenter\Control\Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonControl.h">
+      <Filter>ControlCenter\Control\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticControl.h">
+      <Filter>ControlCenter\Control\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="ListControl.h">
+      <Filter>ControlCenter\Control\List</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogControl.h">
+      <Filter>ControlCenter\Control\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteImage.h">
+      <Filter>Sprite\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteCenter.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationCenter.h">
+      <Filter>Sprite\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectCenter.h">
+      <Filter>Objects\Center</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster1.h">
+      <Filter>Objects\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="walker.h">
+      <Filter>Objects\walker</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster2.h">
+      <Filter>Objects\Monsters</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_one.h">
+      <Filter>Objects\StageOne</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_two.h">
+      <Filter>Objects\stage_two</Filter>
+    </ClInclude>
+    <ClInclude Include="ground.h">
+      <Filter>Objects\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="questionbox.h">
+      <Filter>Objects\questionbox</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollCenter.h">
+      <Filter>ScrollCenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>Objects\flags</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Window Project First.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBitimage.cpp">
+      <Filter>Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageEx.cpp">
+      <Filter>Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlCenter.cpp">
+      <Filter>ControlCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>ControlCenter\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="EditControl.cpp">
+      <Filter>ControlCenter\Control\Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonControl.cpp">
+      <Filter>ControlCenter\Control\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticControl.cpp">
+      <Filter>ControlCenter\Control\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="ListControl.cpp">
+      <Filter>ControlCenter\Control\List</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogControl.cpp">
+      <Filter>ControlCenter\Control\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteImage.cpp">
+      <Filter>Sprite\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteCenter.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationCenter.cpp">
+      <Filter>Sprite\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectCenter.cpp">
+      <Filter>Objects\Center</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster1.cpp">
+      <Filter>Objects\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="walker.cpp">
+      <Filter>Objects\walker</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster2.cpp">
+      <Filter>Objects\Monsters</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_one.cpp">
+      <Filter>Objects\StageOne</Filter>
+    </ClCompile>
+    <ClCompile Include="stage_two.cpp">
+      <Filter>Objects\stage_two</Filter>
+    </ClCompile>
+    <ClCompile Include="ground.cpp">
+      <Filter>Objects\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="questionbox.cpp">
+      <Filter>Objects\questionbox</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollCenter.cpp">
+      <Filter>ScrollCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>Objects\flags</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Window Project First.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Window Project First.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
