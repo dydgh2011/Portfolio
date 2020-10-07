@@ -24,7 +24,7 @@ void Player::Initialize()
 void Player::Progress()
 {
 	if (KEY.GetKeyDown(VK_UP)) {
-		AddForce(0, -800);
+		AddForce(0, -1800);
 	}
 
 	if (KEY.GetKey(VK_RIGHT)) {

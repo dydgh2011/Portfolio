@@ -72,7 +72,13 @@ void stage_one::Initialize()
        goomba->ChangeAnimation("goomba_walking");
        OC.PushObject(goomba);
    }
-
+   for (int in = 0; in < 40; ++in) {
+       Object* goomba = new Monster1();
+       goomba->MoveTo(520 +(70* in), 170);
+       goomba->SetName("goomba");
+       goomba->ChangeAnimation("goomba_walking");
+       OC.PushObject(goomba);
+   }
     Object* breakable = new questionbox();
     breakable->MoveTo(600, 100);
     breakable->ChangeAnimation("mario_block_unbrokable");
