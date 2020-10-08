@@ -1,0 +1,82 @@
+*{
+    margin:0; padding:0;
+}
+
+footer,
+section,
+nav{
+    max-width: 50rem;
+    margin:0 auto;
+    position:relative;
+}
+
+footer{
+    height:20rem;
+    background-image: linear-gradient(160deg, #bbbbfb, #bcbcbc);
+}
+
+#Name,
+#Email,
+#Phone{
+    position: absolute;
+    left:6rem;
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#Name{
+    top:2rem;
+}
+
+#Email{
+    top:5rem;
+}
+
+#Phone{
+    top:8rem;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.vedio{
+    width: 100%;
+}
+
+nav{
+    background-image: linear-gradient(160deg, #bbbbfb, #bcbcbc);
+    height:6rem;
+}
+
+nav ul{
+    width:calc(100% - 2rem);
+    position: absolute;
+    list-style: none;
+    display: grid;
+    bottom:1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav ul li{
+    text-align: center;
+    border:solid 1px black;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    min-height: 2rem;
+    transition-duration: 0.3s;
+}
+
+nav ul li:hover{
+    font-size:1.5rem;
+}
